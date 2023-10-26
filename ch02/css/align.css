@@ -1,0 +1,16 @@
+/* text-align2.html의 스타일 */
+h1{color: #0000ff;}
+.p1{
+    line-height: 1.5;
+    text-align: left;
+}
+.p2{
+    line-height: 1.5;
+    text-align: justify;
+    color: green;
+    font-family: "바탕체";
+}
+.anto{
+    color: #f00;
+    font-weight: bold;
+}

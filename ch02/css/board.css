@@ -1,0 +1,14 @@
+/* board.html에 연결 */
+
+table{
+    width: 600px;
+    /*height: 300px;*/
+    border: 1px solid #0000ff;
+    text-align: center;
+}
+/* 그룹 선택자 ',' */
+th, td{
+    /* dotted - 점선 */
+    border: 1px dotted #0000ff;
+    height: 40px;
+}
