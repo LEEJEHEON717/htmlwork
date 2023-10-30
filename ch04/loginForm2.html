@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 폼 만들기</title>
+    <style>
+        h2{margin-left: 30px;}
+        form{
+            width: 400px;
+            margin-left: 24px;
+            border: 1px solid #222;
+            padding: 10px;
+        }
+        ul li{
+            list-style: none;
+            margin: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h2>로그인</h2>
+    <form action="login.jsp" method="post">
+        <ul>
+            <li>
+                <label for="userid">아이디: </label>
+                <input type="text" name="userid" id="userid">
+            </li>
+            <li>
+                <label for="userpw">비밀번호: </label>
+                <input type="password" name="userpw" id="userpw">
+            </li>
+            <li>
+                <button type="submit">로그인</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
