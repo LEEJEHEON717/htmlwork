@@ -1,0 +1,39 @@
+/* product.html에 연결 */
+#container {
+    /* 가로 너비 : 960 + 40(padding) + 2(border) */
+    width: 960px;
+    margin: 0 auto;
+    border: none;
+    padding: 10px 20px;
+    line-height: 2;
+    /* 전체 줄간격 */
+}
+div {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 0 20px 20px 20px;
+}
+#description{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#product{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+table {
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+caption {
+    margin-bottom: 10px;
+}
+
+thead {
+    background: #eee;
+}
