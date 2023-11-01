@@ -1,0 +1,39 @@
+/* float-layout.html의 스타일 */
+*{margin: 0; padding: 0;}
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: blue;
+    padding: 10px 20px;
+}
+
+header {
+    /* container 1000px이므로 998+2(테두리) */
+    width: 998px;
+    height: 100px;
+    border: 1px solid #333;
+    /* padding: 10px; */
+}
+section{
+    width: 660px;
+    height: 600px;
+    border: 1px solid #333;
+    float: left;
+    background: skyblue;
+}
+aside{
+    width: 320px;
+    height: 600px;
+    border: 1px solid #333;
+    float: right;
+    background: greenyellow;
+}
+footer{
+    width: 998px;
+    height: 100px;
+    border: 1px solid #333;
+    clear: both;
+}

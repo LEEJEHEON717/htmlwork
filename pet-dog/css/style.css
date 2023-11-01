@@ -1,0 +1,92 @@
+/* index.html에 연결 */
+* {margin: 0; padding: 0;}
+#wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgb(0, 121, 0);
+}
+
+header nav {
+    width: 70%; /* header 크기의 60% */
+    float: right;
+    text-align: center;
+}
+
+nav ul li {
+    /* float: right; */
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 16px;
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 5px solid #ccc;
+}
+
+main h2 {
+    margin: 10px 20px;
+}
+
+section {
+    float: left;
+    width: 31%;
+    /* main 크기의 31% */
+    height: 520px;
+    border: 1px dotted #ccc;
+    margin: 5px;
+    padding: 5px;
+}
+
+section h3 {
+    background: url(../images/dot.png) no-repeat;
+    background-position: 5px 20px;
+    /* left(x) top(y) */
+    padding: 16px 24px;
+}
+
+section dl dt {font-weight: bold;}
+section dl dd {margin-bottom: 16px;}
+
+aside {
+    clear: both;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background: greenyellow;
+}
+
+aside h3 {
+    padding-left: 30px;
+}
+
+aside ul li {
+    margin: 10px 60px;
+}
+
+footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #555;
+}
+
+footer p {
+    color: rgb(235, 234, 234);
+    text-align: center;
+}

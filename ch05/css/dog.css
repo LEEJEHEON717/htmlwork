@@ -1,0 +1,32 @@
+/* float-navbar.html에 연결 */
+* { margin: 0; padding: 0;}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* header 스타일 */
+header{
+    width: 100px;
+    height: 80px;
+    background: #069;
+}
+header #logo{
+    width: 30%;
+    float: left;
+    line-height: 80px;
+}
+#logo h1{color: greenyellow; 
+    padding-left: 20px; font-style: italic;}
+header nav{width: 70%; float: right;}
+nav ul {list-style: none; margin-right: 100px;}
+nav ul li{
+    float: right;
+    margin: 0 20px;
+    line-height: 80px;  /* 수직정렬 - 가운데 */
+}
+nav ul li a{color: white; text-decoration: none; padding: 10px;}
+ul li a:hover{color: greenyellow;}
+/* section 스타일 */
+section h1{margin: 20px;}
