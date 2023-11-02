@@ -1,4 +1,5 @@
 /* index.html에 연결 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
 *{margin: 0; padding: 0;}
 #wrap{
     width: 1200px;
@@ -8,6 +9,18 @@ header{
     height: 60px;
     padding: 10px;
     background: rgb(0, 76, 0);
+}
+header #logo{
+    width: 25%;
+    float: left;
+    line-height: 60px;
+}
+#logo h1{
+    color: greenyellow;
+    padding-left: 16px;
+    font-style: italic;
+    font-family: Nanum+Gothic+Coding;
+    font-weight: bold;
 }
 header nav{
     width: 70%; /* header 크기의 60% */
@@ -20,9 +33,17 @@ nav ul li{
     margin: 0 16px;
     list-style: none;
 }
-ul li a{
+/* ul li a{
     color: white;
     text-decoration: none;
+} */
+/* 링크되거나 반문한 속성을 바꿈 */
+ul li a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: yellowgreen;
 }
 main{
     height: 600px;
@@ -47,12 +68,17 @@ section dl dt{font-weight: bold;}
 section dl dd{margin-bottom: 16px;}
 aside{
     clear: both;
-    padding: 10px;
+    padding: 40px 20px 60px;
     background: greenyellow;
 }
-aside h3{padding-left: 30px;}
+aside img{
+    float: left;
+    margin: 0 150px 10px 40pxx;
+    border-radius: 10px;
+}
+aside h3{padding-left: 280px;}
 aside ul li{
-    margin: 10px 60px;
+    margin: 10px 300px;
 }
 footer{
     padding: 20px 10px;

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>position 실습 문제</title>
+  <style>
+    #contents {
+      width: 700px;
+      height: 500px;
+      margin: 0 auto;
+      background: url(images/bg.jpg) no-repeat;
+      background-size: cover;
+      /* 이미지가 기준이 됨 */
+      position: relative;
+    }
+
+    h1 {
+      margin: 0;
+      /* 기본 마진을 0px로 초기화함 */
+      font-size: 100px;
+      color: white;
+      /* 원하는 위치로 배치 */
+      position: absolute;
+      bottom: 130px;
+      right: 70px;
+      text-shadow: 2px 2px 1px #222;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="contents">
+    <h1>CSS3</h1>
+  </div>
+</body>
+
+</html>
