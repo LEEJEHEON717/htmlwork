@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가상요소 ::after 사용</title>
+  <style>
+    .goods{width: 600px; margin: 0 auto;}
+    ul li{margin: 16px;}
+    /* after 선택자 - content 속성 */
+    ul .new::after{
+      content: "NEW";
+      background-color: red;
+      color: #f3f2f2;
+      border-radius: 2px;
+      font-size: 0.8em; /* 1em(이엠) - 16px */
+      padding: 3px;
+      margin: 0 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="good">
+    <h2>상품 목록</h2>
+    <ul>
+      <li class="new">라면</li>
+      <li>생수</li>
+      <li>두부</li>
+      <li class="new">커피</li>
+    </ul>
+  </div>
+</body>
+</html>

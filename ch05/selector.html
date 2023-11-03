@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>연결 선택자</title>
     <style>
-        section{width: 600px;}
+        section {
+            width: 600px;
+        }
+
         /* 1. section p 사이에 공백문자가 있고 하위선택자라 함 */
         /* section p{
             color: blue;
@@ -15,11 +19,19 @@
             color: blue;
         } */
         /* 3. +기호 - 형제 요소 중 가장 가까운 요소에 적용 */
-        section h1 + p{
+        /* section h1 + p{
             color: blue;
+        } */
+        /* 4. 부모가 같은 형제 요소 전 범위 선택 */
+        /* section h1 ~ p{
+            color: blue;
+        } */
+        section :first-child {
+            color: red;
         }
-    </style>              
+    </style>
 </head>
+
 <body>
     <section>
         <h1>예약 방법 & 사용 요금</h1>
@@ -33,4 +45,5 @@
         </div>
     </section>
 </body>
+
 </html>

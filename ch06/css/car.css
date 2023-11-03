@@ -1,0 +1,25 @@
+/* car.css */
+#wrap {
+  width: 700px;
+  margin: 0 auto;
+}
+nav {
+  border-bottom: 1px solid black;
+}
+nav ol {
+  list-style: none;
+  padding-left: 0;
+}
+nav ol li {
+  display: inline-block;
+}
+ol li a {
+  text-decoration: none;
+}
+ol li a::after {
+  content: ">";
+  color: #000;
+  padding: 0 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
