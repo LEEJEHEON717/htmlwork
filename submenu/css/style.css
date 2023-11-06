@@ -1,0 +1,29 @@
+/* style.css */
+/* 공통 스타일(common) */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Nanum+Gothic+Coding:wght@700&display=swap');
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+#wrap{width: 1200px; margin: 0 auto;}
+
+/* header 영역 */
+header{width: 100%; height: 100px; background: #0077cc}
+#logo{float: left; width: 250px; line-height: 100px;}
+#logo h1{padding-left: 20px; color: greenyellow; 
+  font-style: italic; font-family: Nanum Gothic Coding;
+}
+header nav{float: right; width: 900px; padding-top: 40px;}
+
+/* 주메뉴 */
+#topMenu{height: 60px; margin-left: 100px;}
+#topMenu > li{float: left; position: relative;}
+#topMenu > li > a{display: block; color: #fff; padding: 20px 40px;}
+#topMenu > li > a:hover{color: #000;}
+/* 서브메뉴 */
+#topMenu > li > ul{display: none; position: absolute; width: 160px;
+  background: rgba(225, 252, 162, 0.6);
+}
+#topMenu > li:hover > ul{display: block; z-index: 10;}
+#topMenu > li > ul > li{padding: 8px 0 8px 36px;}
+#topMenu > li > ul > li > a{font-size: 15px; color: #000;}
+#topMenu > li > ul > li > a:hover{color: #f00}

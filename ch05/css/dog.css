@@ -1,6 +1,6 @@
-/* float-navbar.html에 연결 */
-/* 웹 폰트 임포트 경로는 맨 위에 위치 */
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+/* float-navbar.html에 연결  */
+/* 웹 폰트 임포트 경로는 맨 위에 위치시킴 */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Nanum+Gothic+Coding:wght@700&display=swap');
 *{margin: 0; padding: 0;}
 #container{
     width: 1000px;
@@ -13,20 +13,22 @@ header{
     background: #069;
 }
 header #logo{
-    width: 30%; /* header 크기의 30% */
+    width: 30%;  /* header 크기의 30% */
     float: left;
     line-height: 80px;
 }
-#logo h1{color: greenyellow; 
-    padding-left: 20px;
+#logo h1{
+    color: greenyellow; 
+    padding-left: 20px; 
     font-style: italic;
-    font-family: Nanum+Gothic+Coding;
+    font-family: Nanum Gothic Coding;
+    /* font-family: Merienda; */
 }
 header nav{width: 70%; float: right;} 
-nav ul{list-style: none; margin-right: 100px;}
+nav ul{list-style: none; margin: 0 40px 0 60px;}
 nav ul li{
-    float: right;
-    /* display: inline-block; */
+    /* float: right; */
+    display: inline-block;
     margin: 0 20px;
     line-height: 80px; /*수직 정렬 - 가운데*/
 }

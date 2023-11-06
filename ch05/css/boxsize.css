@@ -1,5 +1,4 @@
 /* boxsize.css */
-
 *{
   margin: 0; 
   padding: 0;
@@ -24,7 +23,7 @@ section{
   float: left;
 }
 aside{
-  width: 340px;
+  width: 360px;
   height: 600px;
   border: 1px solid #ccc;
   padding: 10px;
@@ -32,7 +31,6 @@ aside{
 }
 footer{
   clear: both;
-  width: 1000px;
   height: 100px;
   border: 1px solid #ccc;
   padding: 10px;

@@ -1,32 +1,19 @@
 /* navi.css */
 *{margin: 0; padding: 0;}
-.wrap{
-  width: 960px;
-  margin: 0 auto;
-}
-nav{
-  height: 80px;
-  text-align: center;
-}
-nav ul{
-  list-style: none;
-  border-bottom: 2px solid #ccc;
-}
+.wrap{width: 960px; margin: 0 auto;}
+nav{height: 80px; text-align: center;}
+nav ul{list-style: none; border-bottom: 2px solid #ccc;}
 nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 20px;
 }
-ul li a link, a:visited{ /* ul li a{}와 같음 */
+ul li a:link, a:visited{ /*  ul li a{}와 같음 */
   text-decoration: none;
   color: #222;
   padding: 10px;
 }
-ul li a:hover, a:focus{
-  background: #222;
-  color: white;
-}
+/* a:focus -> 탭키를 눌러 동작 */
+ul li a:hover, a:focus{background: #222; color: rgb(235, 234, 234);}
 /* a:active -> 마우스 클릭하여 동작 */
-ul li a:active{
-  background-color: red;
-}
+ul li a:active{background-color: red;}

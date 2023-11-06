@@ -6,21 +6,21 @@
   <title>가상요소 ::after 사용</title>
   <style>
     .goods{width: 600px; margin: 0 auto;}
-    ul li{margin: 16px;}
+    ul li{margin: 16px}
     /* after 선택자 - content 속성 */
     ul .new::after{
-      content: "NEW";
+      content: "NEW";  /* li 요소 뒤에 NEW가 위치함  */
       background-color: red;
       color: #f3f2f2;
       border-radius: 2px;
-      font-size: 0.8em; /* 1em(이엠) - 16px */
+      font-size: 0.8em;  /* 1em(이엠) - 16px */
       padding: 3px;
       margin: 0 6px;
     }
   </style>
 </head>
 <body>
-  <div class="good">
+  <div class="goods">
     <h2>상품 목록</h2>
     <ul>
       <li class="new">라면</li>

@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>nth-child 속성</title>
+  <title>nth-chlid 속성</title>
   <style>
     table{
       border-collapse: collapse;
@@ -14,14 +13,17 @@
       padding: 10px 20px;
       text-align: center;
     }
-    /* n=0을 대입 */
-    table tr:nth-child(2n){
+    /* n=0을 대입  */
+    /* table tr:nth-child(2n+1){
+      background: #eee;
+    } */
+    table tr:nth-of-type(2n){
       background: #eee;
     }
   </style>
 </head>
-<h2>건강에 좋은 식품</h2>
 <body>
+  <h2>건강에 좋은 식품</h2>
   <table>
     <tr>
       <td>블루베리</td>
@@ -55,5 +57,4 @@
     </tr>
   </table>
 </body>
-
 </html>
