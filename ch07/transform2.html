@@ -46,10 +46,20 @@
       /* y축으로 1.5배 확대 및 축소 */
       /* transform: scaleY(1.5); */
       /* transform: scaleY(0.5); */
-      
+
       /* x,y 양쪽방향으로 확대 및 축소 */
       transform: scale(1.5);
       /* transform: scale(0.5); */
+    }
+    div.e{
+      width: 150px;
+      height: 80px;
+      background-color: #0f0;
+    }
+    div.e:hover{
+      /* X축을 기준으로 박스를 30도 만큼 비팀 */
+      /* transform: skewY(30deg) */
+      transform: skewX(30deg);
     }
   </style>
 </head>
@@ -65,5 +75,8 @@
 
   <h2>transform: scaleY(1.5)</h2>
   <div class="d">Hello world</div>
+
+  <h2>transform: skewX(30deg)</h2>
+  <div class="e">Hello world</div>
 </body>
 </html>
