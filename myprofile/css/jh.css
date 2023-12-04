@@ -1,0 +1,80 @@
+
+@charset "utf-8";
+
+*{margin:0; padding: 0; box-sizing: border-box;}
+#container{width: 100%; margin: 0 auto;}
+
+/* header 스타일 */
+header{width: 100%; height: 280px;}
+#logo{float:left; width: 30%; height: 60px; line-height: 60px; 
+    padding-left: 20px; background: #000;}
+#logo h2{font-family: Merienda; color: rgb(253, 212, 29)}
+#logo a:link, a:visited{text-decoration:none; }
+nav{float: right; width: 70%; height: 60px; line-height: 60px; 
+    background: #000; padding-left: 30px;}
+#main-nav{list-style: none; font-size: 0.9em;}
+#main-nav li{display: inline-block; margin: 0 10px; line-height: 60px;}
+#main-nav li a:link, a:visited{text-decoration: none; color:white; }
+#main-nav li a:hover{color: orange;}
+#main-pic img{width:100%; height: 220px;}
+
+/* 본문 스타일 */
+section{height: 330px; padding: 10px 3%;}
+section:nth-of-type(2n){background: rgb(245, 245, 245)}
+section .page-title{padding: 5px}
+.content .photo{display: none;}
+.content .text h3{padding:20px 10px 20px 20px; color: rgb(71, 119, 163);}
+.content .text p{line-height: 1.5; padding: 10px 0 0 20px; font-size: 0.9em;}
+.content .text ul{margin-left: 10px;}
+.content .text .work{margin-left: 40px;}
+.content .text li{margin: 5px; font-size: 0.9em;} /* 하는 일 */
+.content #career{padding-left: 20px;}
+.content #career li{margin: 15px;}
+.content #career li:first-child{ color: firebrick;}
+.content #link{padding-left: 20px;}
+.content #link li{margin: 15px;}
+.content #link li:last-child{ color: firebrick;}
+.content #link li a{text-decoration: none; color:rgb(100, 100, 250);}
+.content #link li a:hover{text-decoration: underline; color: rgb(100, 100, 250);}
+
+/* footer 스타일 */
+footer{height: 100px; border-top: 2px solid #aaa}
+#bottomMenu{margin: 10px 30px;}
+#bottomMenu ul{list-style: none;}
+#bottomMenu ul li{display: inline; padding: 0 10px;
+            border-right: 2px solid #ccc; font-size: 0.9em;}
+#bottomMenu ul li:last-child{border:none}
+#bottomMenu ul li a{text-decoration: none; color: firebrick}
+#bottomMenu ul li a:hover{text-decoration: underline; color: firebrick}
+
+/* 태블릿 기준 - 768px 이상 */
+@media screen and (min-width: 780px) {
+    header{width: 100%; height: 320px;}
+    #logo{float:left; width: 20%;}
+    #logo{padding-left: 30px;}
+    nav{float: right; width: 80%; height: 60px;}
+    #main-nav{padding-left: 70px;}
+    #main-nav li{margin: 0 30px;}
+    #main-pic img{width:100%; height: 260px;}
+    section{height: 400px; padding: 10px 5%;}
+    /* #job{height: 300px;} */
+    #who, #job{float:left; width: 50%; border:1px dotted #eee;}
+    #skill{clear:both; height: 350px;}
+}
+
+/* pc 기준 - 996px 이상*/
+@media screen and (min-width: 1000px) {
+    #container{width: 1000px; margin:0 auto; border: 1px solid #eee}
+    header{height: 360px;}
+    #main-nav{padding-left: 100px;}
+    #main-nav li{margin: 0 40px;}
+    #main-pic img{height: 300px;}
+    section{height: 350px;}
+    #skill{height: 350px;}
+    .content .text .work{margin-left: 260px;}
+    #who, #job, #skill{width: 100%; padding: 10px 5%;}
+    #who .photo{float: left; display: block; margin: 10px 20px; }
+    #who .photo img{border-radius: 5px;}
+    #skill .photo{float: right; display: block; margin-right: 0;}
+    #skill .photo img{border-radius: 5px;}
+}

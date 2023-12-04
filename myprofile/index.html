@@ -1,159 +1,101 @@
+
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en"><head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=8, viewport-fit=cover">
-  <script>window.__OOPY__ = window.__OOPY__ || {};window.__OOPY__.yaml = null</script>
-  <title>이제헌 - 웹 프론트엔드 개발자</title>
-  <mata name="description" content="웹 프론트엔드 개발자 이제헌입니다.">
-    <style>
-      @keyframes fadeUp {
-        from {
-          transform: translateY(50px);
-          opacity: 0;
-        }
-
-        to {
-          transform: translateY(0);
-          opacity: 1;
-        }
-      }
-
-      .notion-frame>.notion-scroller {
-        transform: translateY(50px);
-        opacity: 0;
-        animation: 400ms ease fadeUp;
-        animation-fill-mode: forwards;
-      }
-
-      .custom-navbar {
-        position: fixed;
-        top: 0;
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height: 56px;
-        background-color: #ffffff;
-        z-index: 1000000;
-        box-shadow: 0 0 4px 4px rgb(0, 0, 0, 0.05);
-      }
-
-      .custom-navbar > a {
-        display: flex;
-        align-content: center;
-        height: 100%;
-        font-size: 16px;
-        color: #000000;
-        font-weight: 600;
-        flex: 1;
-        flex-direction: none;
-        transition: 300ms;
-      }
-
-      @media (max-width: 414px) {
-        .custom-navbar-logo {
-          display: none;
-        }
-
-        .custom-navbar > a {
-          font-size: 14px;
-        }
-      }
-
-      .notion-galler-view a {
-        border-radius: 16px !important;
-      }
-    </style>
-    <meta property="og:title" content="이제헌 | Portfolio">  
-    <meta property="og:description" content="💼&nbsp; 경력"> 
-    <meta property="og:site_name" content="이제헌 | Portfolio">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://192.168.20.54:5500/myprofile/index.html">  <!-- 나중에 링크 체크-->
-    <meta name="twitter:title" content="이제헌 | Portfolio">
-    <meta name="twitter:description" content="💼&nbsp; 경력">
-    <link rel="shortcut icon" type="image" href="https://oopy.lazyrockets.com/api/rest/cdn/image/ab9059dd-2b5c-4447-8438-dd30f87debcf.png?d=16">
-    <link rel="apple-touch-icon" href="https://oopy.lazyrockets.com/api/rest/cdn/image/ab9059dd-2b5c-4447-8438-dd30f87debcf.png?d=16">
-    <link rel="canonical" href="http://192.168.20.54:5500/myprofile/index.html">  <!-- 나중에 링크 체크-->
-  </mata>
-  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>미래의 프론트엔드 개발자 이제헌입니다.</title>
+  <link rel="stylesheet" href="./css/jh.css">
+  <script src="./js/jh.js"></script>
 </head>
-
 <body>
   <div id="container">
-    <header>
-      <nav>
-        <ul id="main-nav">
-          <li><a href="intro">Home</a></li>
-          <li><a href="choice">Resume</a></li>
-          <li><a href="map">Portfolio</a></li>
-          <li><a href="map">Github</a></li>
-          <li><a href="map">Velog</a></li>
-        </ul>
-      </nav>
-      <div id="main-pic">
-        <img src="images/bg0.jpg" alt="배경사진">
-      </div>
-    </header>
-    <section id="intro">
-      <div class="page-title">
-        <h1>카페 소개</h1>
-      </div>
-      <div class="content">
-        <div class="photo">
-          <img src="images/cup-1.jpg" alt="커피잔">
-        </div>
-        <div class="text">
-          <p>영업 시간 : 오전 9시 ~ 밤 9시</p>
-          <p>휴무 : 매주 월요일<br>
-            <i>(일요일이 공휴일인 경우 월요일 영업, 다음날 휴무)</i>
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="choice">
-      <div class="page-title">
-        <h1>이달의 추천</h1>
-      </div>
-      <div class="content">
-        <div class="photo">
-          <img src="images/cup-2.jpg" alt="커피잔">
-        </div>
-        <div class="text">
-          <h2>핸드 드립 아이스 커피</h2>
-          <ol>
-            <li>1인분 기준으로 서버에 각얼음 5조각(한 조각의 20cc) 넣고
-              추출을 시작한다.</li>
-            <li>평상시 보다 원두의 양은 2배 정도(20g)와 추출액은 얼음 포함해서
-              200cc까지 내린다</li>
-            <li>아이스 잔에 얼음 6~7개 섞어서 시원하게 마신다.</li>
-          </ol>
-        </div>
-      </div>
-    </section>
-    <section id="map">
-      <div class="page-title">
-        <h1>오시는 길</h1>
-      </div>
-      <div class="content">
-        <div class="photo">
-          <img src="images/map.png" alt="커피잔">
-        </div>
-        <div class="text">
-          <p>서울시 영등포구 선유동2로 27 이레빌딩 19F</p>
-          <p>2호선 당산역 12번, 13번 출구, 도보10분</p>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <ul id="bottom-menu">
-        <li><a href="#">카페 소개</a></li>
-        <li><a href="#">개인정보 처리방침</a></li>
-        <li><a href="#">이용 약관</a></li>
-        <li><a href="#">사이트 맵</a></li>
-      </ul>
-    </footer>
+      <header>
+          <div id="logo">
+              <a href="#">
+                  <h2>honeybee</h2>
+              </a>
+          </div>
+          <nav>
+              <ul id="main-nav">
+                  <li><a href="#who">about</a></li>
+                  <li><a href="#job">career</a></li>
+                  <li><a href="#skill">skill</a></li>
+              </ul>
+          </nav>
+          <div id="main-pic">
+              <img src="images/header1.jpg" id="pic">
+          </div>
+      </header>
+      <section id="who">
+          <div class="page-title">
+              <h1>About me</h1>
+          </div>
+          <div class="content">
+              <div class="photo">
+                  <img src="./images/me-1.jpg" alt="내사진">
+              </div>
+              <div class="text">
+                  <h3><em>내일 더 성장하는 개발자가 되길</em></h3>
+                  <p><b>- 이 름</b> : 이 제 헌 </p>
+                  <p><b>- 나 이</b> : 만 27세 </p>
+                  <p><b>- 하는 일</b></p>
+                  <ul class="work">
+                      <li>디자인&모델링 외주작업</li>
+                      <li>자기개발 및 공부</li>
+                      <li>자기관리 및 운동</li>
+                      <li>대외활동</li>
+                  </ul>             
+              </div>
+          </div>
+      </section>
+      <section id="job">
+          <div class="page-title">
+              <h1>Career</h1>
+          </div>
+          <div class="content">
+              <div class="text">
+                  <ul id="career">
+                      <li>(현)KH정보교육원 교육과정 수료중</li>
+                      <li>(전)대림건설 경관&특화디자이너 - e편한세상</li>
+                      <li>(전)ruruR&D 특화디자이너 - 브랜드 특화디자인_롯데캐슬, 더샾, 유보라, IPARK... </li>
+                      <li>(전)기아대책 해외파견 - 건축_도장부분 팀장으로 라오스 중학교 준공 </li>
+                      <li>(전)디자인문 경관디자이너 - 솔라시티정부사업, 과천지식산업센터, 지하철역사 입출구...</li>
+                      <li>(전)공공디자인협회 인턴 - 외부시설물 및 공공디자이너</li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+      <section id="skill">
+          <div class="page-title">
+              <h1>Skill</h1>
+          </div>
+          <div class="content">
+              <div class="photo">
+                  <img src="./images/cat-4.jpg" alt="고양이귀여워">
+              </div>
+              <div class="text">
+                  <ul id="link">
+                      <li>컬러리스트 기사 / 어도비 마스터 / 웹디자인기능사 / 3DMD</li>
+                      <li>컴퓨터 그래픽스 운용기능사 / 캐드실무능력평가 2급</li>
+                      <li>항해사(6급) / 소형선박조종사 / 산업안전기사</li>
+                      <li>툴 : Adobe / MSoffice / CAD / Rhino3D / keyshot<br>
+                          Lumion / SketchUp / V-ray / unrealengine </li>
+                      <li>개발자과정 교육중 - 추후 업로드 예정</li>
+                  </ul>
+                  <p style="color: gray">now : <span id="time">오전 10:05:19</span></p>
+              </div>
+          </div>
+      </section>
+      <footer>
+          <div id="bottomMenu">
+              <ul>
+                  <li><a href="https://github.com/LEEJEHEON717">깃허브(Git)</a></li>
+                  <li>email : leejehun0717@naver.com</li>
+                  <li>instargram : honeybee717_kitchen</li>
+              </ul>
+          </div>
+      </footer>
   </div>
 </body>
-
 </html>

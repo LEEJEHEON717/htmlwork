@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cafe12 사이트입니다.</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
   </head>
   <body>
     <div id="container">
       <header>
         <nav>
           <ul id="main-nav">
-            <li><a href="intro">카페 소개</a></li>
-            <li><a href="choice">이달의 추천</a></li>
-            <li><a href="map">오시는 길</a></li>
+            <li><a href="#intro">카페 소개</a></li>
+            <li><a href="#choice">이달의 추천</a></li>
+            <li><a href="#map">오시는 길</a></li>
           </ul>
         </nav>
         <div id="main-pic">
-          <img src="images/bg0.jpg" alt="배경사진">
+          <img src="images/header0-bg.jpg" alt="배경사진" id="pic">
         </div>
       </header>
       <section id="intro">
@@ -31,8 +32,9 @@
           <div class="text">
             <p>영업 시간 : 오전 9시 ~ 밤 9시</p>
             <p>휴무 : 매주 월요일<br>
-               <i>(일요일이 공휴일인 경우 월요일 영업, 다음날 휴무)</i>
+               <i><small>(일요일이 공휴일인 경우 월요일 영업, 다음날 휴무)</small></i>
             </p>
+            <p id="show"></p>
           </div>
         </div>
       </section>
@@ -45,7 +47,7 @@
             <img src="images/cup-2.jpg" alt="커피잔">
           </div>
           <div class="text">
-            <h2>핸드 드립 아이스 커피</h2>
+            <h2>* 핸드 드립 아이스 커피 *</h2>
             <ol>
               <li>1인분 기준으로 서버에 각얼음 5조각(한 조각의 20cc) 넣고
                   추출을 시작한다.</li>
@@ -65,8 +67,8 @@
             <img src="images/map.png" alt="커피잔">
           </div>
           <div class="text">
-            <p>서울시 영등포구 선유동2로 27 이레빌딩 19F</p>
-            <p>2호선 당산역 12번, 13번 출구, 도보10분</p>
+            <p>서울시 영등포구 선유동2로 57 이레빌딩 19F</p>
+            <p>2호선 당산역 12번, 13번 출구, 도보로 10분</p>
           </div>
         </div>
       </section>
