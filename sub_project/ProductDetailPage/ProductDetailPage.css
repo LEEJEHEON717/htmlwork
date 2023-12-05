@@ -113,6 +113,16 @@ a:hover {
   background-color: #ffa;
 }
 
+/* .mid-mid */
+.mid-mid {
+  width: 100%;
+  height: 180px;
+}
+
+.logo-pic {
+  width: 100%;
+  height: 180px;
+}
 
 /* #bottom */
 #bottom {
