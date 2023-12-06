@@ -98,31 +98,151 @@ a:hover {
 }
 
 
-
-
 /* #mid */
 #mid {
   background-color: #fff;
-  margin: 30px;
-  margin-bottom: 0;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 화면 가운데 정렬 */
+  justify-content: space-between;
 }
 
-#mid h3 {
-  padding: 50px;
-  text-align: center;
-  background-color: #ffa;
+/* .mid-top */
+.menu-category {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  text-align: center; /* 텍스트를 중앙 정렬 */
 }
+
+.title-notice {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.notice-list {
+  list-style: none;
+  text-align: center; /* 리스트를 중앙 정렬 */
+  margin-right: 50px;
+  display: flex; /* 텍스트를 가로로 정렬하기 위해 Flexbox 사용 */
+}
+
+.notice-list li {
+  margin-right: 10px; /* 각 텍스트 사이의 간격 조절 */
+}
+
+.notice-list li:last-child {
+  margin-right: 0;
+}
+
+
 
 /* .mid-mid */
-.mid-mid {
-  width: 100%;
-  height: 180px;
+.mid-mid { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%; /* 가로 폭을 100%로 설정 */
+  gap: 50px;
 }
 
-.logo-pic {
-  width: 100%;
-  height: 180px;
+.function {
+  margin-bottom: 20px; /* Adjust as needed */
 }
+
+.prd_count {
+  text-align: left;
+  color: #333; /* Change the color as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+#type {
+  text-align: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#type li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust the spacing between items as needed */
+}
+
+#type li a {
+  text-decoration: none;
+  color: #8d4706; /* Change the color as needed */
+  font-weight: bold;
+}
+
+.compare {
+  display: inline-block;
+  margin-left: 10px; /* Adjust the spacing between the last link and the compare button */
+}
+
+.compare a {
+  text-decoration: none;
+}
+
+.compare img {
+  border: 0;
+}
+
+
+div {
+  flex: 1; /* 각 요소가 동일한 너비를 가지도록 설정 */
+  box-sizing: border-box; /* border와 padding을 포함한 전체 크기로 설정 */
+  text-align: center; /* 텍스트를 가운데 정렬 */
+}
+
+.prd_img {
+  display: flex;
+  justify-content: center; /* 이미지를 가로로 가운데 정렬 */
+  gap: 10px; /* 이미지 사이의 간격 설정 */
+}
+
+.prd_name {
+  margin-top: 10px; /* 이름과 가격 사이의 간격 설정 */
+}
+
+.prd_price {
+  list-style: none; /* 리스트 마커 제거 */
+  padding: 0; /* 내부 여백 제거 */
+  margin: 5px 0; /* 가격과 아이콘 사이의 간격 설정 */
+}
+
+.prd_icon {
+  gap: 5px; /* 아이콘 사이의 간격 설정 */
+  margin-top: 5px; /* 아이콘과 하단 간격 설정 */
+}
+
+#page {
+  text-align: end;
+  margin: 20px;
+  position: absolute;
+  bottom: 10px; /* 레이아웃에 맞게 값을 조정하세요 */
+  left: 50%;   /* 페이지네이션을 수평으로 가운데 정렬합니다 */
+  transform: translateX(-50%);
+}
+
+/* 선택사항: 버튼에 스타일링을 추가합니다 */
+#page button {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #aa1;
+  border-radius: 50%;
+  background: #ffe;
+}
+
+#page .arrow {
+  width: 25px;
+  height: 25px;
+}
+
 
 /* #bottom */
 #bottom {
