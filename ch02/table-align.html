@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
         <title>테이블 - 수직 정렬</title>
         <style>
             table{
@@ -10,30 +10,30 @@
             td{
                 border: 1px solid #bbb;
                 width: 150px;
-                height: 100px;
+                height: 100px; 
                 text-align: center;
             }
             /* 셀의 수직 정렬 */
-            .val{vertical-align: top; /* 위쪽 */}
-            .val{vertical-align: middle; /* 가운데 */}
-            .val{vertical-align: bottom; /* 아래쪽 */}
+            .va1{vertical-align: top; /*위쪽*/}
+            .va2{vertical-align: middle; /*가운데*/}
+            .va3{vertical-align: bottom; /*아래쪽*/}
             /* 선택자(셀렉터) id는 유일한 것을 선택할 때 사용. #을 붙이고 사용 */
             #cap_top{
                 /* 캡션 위치 - top, bottom */
                 caption-side: top;
-                margin-bottom: 5px; /* 바깥 여백(아래쪽) */
+                margin-bottom: 5px;  /*바깥 여백(아래쪽) */
             }
             #cap_bottom{
                 caption-side: bottom;
-                margin-top: 5px; /* 바깥 여백(위쪽) */
-            } 
+                margin-top: 5px;    /*바깥 여백(위쪽) */
+            }
         </style>
     </head>
     <body>
         <!-- 1행 3열의 표 -->
-        <!-- 캡션<caption> : 표의 설명 -->
+        <!-- 캡션<caption>: 표의 설명 -->
         <table>
-            <caption id="cap_top">수직 정열(vertical-align)</caption>
+            <caption id="cap_top">수직 정렬(vertical-align)</caption>
             <tr>
                 <td class="va1">alignment</td>
                 <td class="va2">alignment</td>
@@ -42,7 +42,7 @@
         </table>
         <hr>
         <table>
-            <caption id="cap_bottom">수직 정열(vertical-align)</caption>
+            <caption id="cap_bottom">수직 정렬(vertical-align)</caption>
             <tr>
                 <td class="va1">alignment</td>
                 <td class="va2">alignment</td>

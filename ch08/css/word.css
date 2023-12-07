@@ -4,23 +4,23 @@
 body{background-color: rgb(0, 0, 102);}
 /* 모바일 기준 */
 #container{width: 320px; margin: 0 auto;}
-/* img 크기: 300 X 250 */
+/* img 크기: 300 x 250 */
 #container .card{width: 300px; height: 500px; margin: 20px 10px;
-  background-color: #fff; position: relative;}
-  /* 글자 위치는 position 속성으로 배치함 */
+  background-color: #fff; position: relative;} 
+/* 글자 위치는 position 속성으로 배치함 */
 .card .word{position: absolute; top: 300px; left: 10px;
   padding-right: 10px; text-align: center;}
 .card .word h3{margin: 16px 0;}
 
-/* 테블릿 기준 */
+/* 태블릿 기준 */
 @media screen and (min-width: 780px) {
-  #container{width: 570px;}
-  #container .card{width: 550px; height: 250px;}
+  #container{width: 570px;} /* 마진 포함 크기 */
+  #container .card{width: 550px; height: 250px; position: relative;}
   .card .word{position: absolute; top: 50px; left: 310px;}
 }
 
 /* pc 기준 */
-@media screen and (min-width: 1710px) { /* 570X3=1710 */
-  #container{width: 1770px} /* 마진 포함 크기*/
+@media screen and (min-width: 1710px) { /* 570x3=1710 */
+  #container{width: 1770px} /* 마진 포함 크기 */
   #container .card{float: left;}
 }

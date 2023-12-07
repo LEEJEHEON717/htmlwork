@@ -11,14 +11,14 @@
       background: blue;
       margin: 60px;
       /* 애니메이션 이름 선언 */
-      /* animation-name: change-bg;
-      animation-duration: 3s; */
+      /* animation-name: change-bg; */
+      /* animation-duration: 3s; */
 
-      /* 반복 횟수 -무한반복(infinite)*/
+      /* 반복 횟수 - 무한반복(infinite)*/
       /* animation-iteration-count: 4; */
       /* animation-iteration-count: infinite; */
 
-      animation: change-bg 3s 4;
+      animation: change-bg ease-in 3s 4;
     }
     @keyframes change-bg {
       from{
@@ -27,7 +27,6 @@
       }
       to{
         background-color: orange;
-        /* border-radius: 30%; */
         border-radius: 50%;
       }
     }

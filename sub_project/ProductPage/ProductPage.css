@@ -148,7 +148,10 @@ a:hover {
   width: 100%; /* 가로 폭을 100%로 설정 */
   gap: 50px;
 }
-
+.mid-mid .prd_unit{
+  flex: 0 0 auto;
+  width: 20%
+}
 .function {
   margin-bottom: 20px; /* Adjust as needed */
 }

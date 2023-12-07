@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* 공통 스타일 */
+body{margin: 0;}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* PC 기준 */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  align-items: center;
+}
+.navbar_logo{
+  font-size: 24px;
+  padding-left: 12px;
+}
+.navbar_menu{
+  display: flex;
+  list-style: none;
+  margin-right: 10%;
+  padding-left: 0;
+}
+.navbar_menu li{
+  padding: 8px 12px;
+}
+.navbar_toggleBtn{
+  position: absolute;
+  right: 30px;
+  font-size: 24px;
+  display: none;
+}
+
+/* 모바일 기준 - 768px 미만일때*/
+@media screen and (max-width: 768px){
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+  .navbar_menu{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: none;
+  }
+  .navbar_menu li{text-align: center;}
+  .navbar_menu.active{display: flex;}
+  .navbar_toggleBtn{display: block;}
+}
+

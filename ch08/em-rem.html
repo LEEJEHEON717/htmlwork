@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>em과 rem 비교</title>
+  <style>
+    body{
+      font-size: 12px;
+    }
+    /* em은 부모로 부터 상속을 받으나
+       rem은 상속 받지 않음 */
+    /* 1em = 12px, 1rem = 16px*/
+    p.a{font-size: 2em;}
+    p.b{font-size: 2rem;}
+  </style>
+</head>
+<body>
+  <!-- <h1>em과 rem비교</h1> -->
+  <p class="a">em 단위</p>
+  <p class="b">rem 단위</p>
+
+</body>
+</html>

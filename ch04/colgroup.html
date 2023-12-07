@@ -1,41 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title> colgroup 태그 예제 </title>
-    <style>
-        table {
-            border-collapse: collapse;
-            /* border: 1px solid #ccc; */
-        }
-
-        td {
-            border: 1px solid #ccc;
-            width: 100px;
-            height: 30px;
-        }
-    </style>
-</head>
-
-<body>
-    <!-- 2행 3열의 표 -->
-    <table>
-        <colgroup>
-            <col>
-            <col style="background-color: aqua;">
-            <col>
-        </colgroup>
-        <tr>
-            <td></td>
-            <td></td>
-            <td rowspan="2"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-</body>
-
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>colgroup 태그 예제</title>
+        <style>
+            table{
+                border-collapse: collapse;
+            }
+            td{
+                border: 1px solid #ccc;
+                width: 100px;
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 2행 3열의 표 -->
+        <!-- 3열 셀합치기 -->
+        <table>
+            <colgroup>
+                <col>
+                <col style="background-color: aqua;">
+                <col>
+            </colgroup>
+            <tr>
+                <td></td>
+                <td></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
 </html>

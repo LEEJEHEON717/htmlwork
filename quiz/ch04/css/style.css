@@ -1,11 +1,10 @@
-/* recuit.html에 연결 */
 body{
     background-color: #02233b;
     margin: 0;
 }
-#container {
-    width: 600px;   /* 너비 */
-    height: 700px;  /* 높이 */
+#container{
+    width: 600px;
+    height: 700px;
     margin: 0 auto;
     padding: 1px 20px;
     background: url("../images/mic.png") no-repeat right bottom;
@@ -23,9 +22,8 @@ h2{
 }
 h3{color: red;}
 ul li{
-    /* ul 태그에 padding-left 40px 적용됨 */
-    list-style: none;
+    /* ul 태그에 padding-left: 40px 적용됨 */
+    list-style: none; 
     margin: 10px;
     /* line-height: 2; */
 }
-

@@ -1,39 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {
+        div{
             width: 200px;
             height: 100px;
         }
-
-        /* 마진 중첩 - 위와 아래의 마진이 서로 겹치면 큰 마진값으로 합쳐짐 */
-        #box1 {
+        /* 마진 중첩 - 위와 아래의 마진이 서로 겹치면
+           큰 마진값으로 합쳐짐 */
+        #box1{
             background-color: red;
             margin: 20px;
         }
-
-        #box2 {
+        #box2{
             background-color: green;
             margin: 30px 20px;
         }
-
-        #box3 {
+        #box3{
             background-color: blue;
             margin: 20px;
         }
     </style>
 </head>
-
 <body>
     <div id="box1"></div>
     <div id="box2"></div>
     <div id="box3"></div>
-
 </body>
-
 </html>

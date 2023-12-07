@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <title>목록 관련 스타일</title>
-    <style>
-        /* css, html 스타일이 겹치면 css 우선임 */
-        /* 스타일 상속 : 부모의 스타일을 자식이 상속받음 */
-        li {
-            /* list-style: none; */
-            list-style: none;
-            line-height: 2;
-        }
-
-        ul li a {
-            text-decoration: none;
-            color: black;
-        }
-
-        /* hover - 마우스를 올리면 동작 */
-        ul li a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-
-<body>
-    <h2>ABC 주식회사</h2>
-    <ul>
-        <li><a href="#">회사 소개</a></li>
-        <li><a href="#">제품 소개</a></li>
-        <li><a href="#">회원 가입</a></li>
-        <li><a href="#">게시판</a></li>
-    </ul>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <title>목록 관련 스타일</title>
+        <style>
+            /* css, html 스타일이 겹치면 css 우선임 */
+            /* 스타일 상속 : 부모의 스타일을 자식이 상속받음 */
+            ul li{ 
+                /* list-style: none; */
+                list-style: none;
+                line-height: 2;
+            } 
+            ul li a{
+                text-decoration: none;
+                color: black;
+            }
+            /* hover- 마우스를 올리면 동작 */
+            ul li a:hover{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>ABC 주식회사</h2>
+        <ul>
+            <li>
+                <a href="#">회사 소개</a>
+            </li>
+            <li><a href="#">제품 소개</a></li>
+            <li><a href="#">회원 가입</a></li>
+            <li><a href="#">게시판</a></li>
+        </ul>
+    </body>
 </html>
