@@ -1,0 +1,256 @@
+
+/* 공통 스타일 */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1300px;
+    height: 100%;
+    background-color: #fefeee;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* #top */
+#top {
+    width: 100%;
+    height: 250px;
+}
+
+/* .top-top */
+.top-top {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 40px;
+    background-color: #000;
+}
+
+.mini-shortcut {
+    float: left;
+}
+
+.ms-list li{
+    float: left;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.ms-list li a{
+    color: #fff;
+}
+
+.top-top-menu {
+    float: right;
+}
+
+.ttm-list li {
+    float: left;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.ttm-list li a{
+    color: #fff;
+}
+
+/* .top-mid */
+.top-mid {
+    width: 100%;
+    height: 180px;
+}
+
+.logo-pic {
+    width: 100%;
+    height: 180px;
+}
+
+/* .top-btm */
+.top-btm {
+    width: 100%;
+    height: 40px;
+    background-color: #ffa;
+}
+
+.top-btm-menu .tbm-list{
+    text-align: center;
+}
+
+.tbm-list li {
+    display: inline-block;
+    padding: 9px 20px;
+    height: 40px;
+}
+
+
+
+
+
+
+/* #mid */
+#mid {
+    background-color: #fff;
+    margin: 30px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+#mid h3 {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffa;    
+}
+
+#login {
+    margin-top: 50px;
+    padding: 50px 100px;
+    width: 100%;
+}
+
+.login_tb {
+    border-collapse: collapse;
+    padding: 40px;
+}
+
+.login_btn {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    padding: 35px 35px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #ffa;
+    box-shadow: 0px 2px 5px #ee1;
+}
+
+
+.td_text {
+    border: 1px solid #aa1;
+    border-right: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #aaa;
+    background: #ffe;
+}
+.td_input {
+    border: 1px solid #aa1;
+    border-left: none;
+}
+
+.login_input {
+    width: 200px;
+    height: 40px;
+    border: none;
+}
+
+#find_account {
+    margin: 20px 0px 70px 300px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+#find_account p a {
+    color: #aaa;
+}
+
+.join_account {
+    width: 500px;
+    border-top: 1px solid #eca;
+    padding: 40px 50px;
+    margin: 10px auto 300px;
+    text-align: center;
+}
+
+.join_account p {
+    float: left;
+}
+
+.join_account a {
+    float: right;
+}
+
+.join_account_btn {
+    padding: 10px 30px;
+    box-shadow: 0 -5px 10px #fe2;
+    border: 1px solid #fe1;
+    background: #ffa;
+}
+
+
+
+/* #bottom */
+#bottom {
+    width: 80%;
+    height: 170px;
+    border-top: 1px solid #ccc;
+}
+
+#bottom div {
+    float: left;
+}
+
+#bottom div h3 {
+    margin: 10px 0 15px 10px;
+}
+
+#bottom div p {
+    font-size: 0.8rem;
+    line-height: 2;
+}
+
+.cst-center {
+    padding-right: 230px;
+}
+
+.bank-info {
+    padding-right: 230px;
+}
+
+.btm-icon {
+    padding-right: 0;
+}
+
+.btm-icon-list li{
+    float: left;
+    padding : 10px;
+    margin: 30px 0px;
+}
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 120px;
+    clear: both;
+    margin-top: 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-info {
+    text-align: center;
+    border-top: 2px solid #000;
+}
+
+.span-list {
+    margin: 20px;
+}
+
+.span-list span {
+    line-height: 2;
+    font-size: 0.8rem;
+}

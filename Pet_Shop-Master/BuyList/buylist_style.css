@@ -1,0 +1,246 @@
+
+/* 공통 스타일 */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1300px;
+    height: 100%;
+    background-color: #fefeee;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+/* #top */
+#top {
+    width: 100%;
+    height: 250px;
+}
+
+/* .top-top */
+.top-top {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 40px;
+    background-color: #000;
+}
+
+.mini-shortcut {
+    float: left;
+}
+
+.ms-list li{
+    float: left;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.ms-list li a{
+    color: #fff;
+}
+
+.top-top-menu {
+    float: right;
+}
+
+.ttm-list li {
+    float: left;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.ttm-list li a{
+    color: #fff;
+}
+
+/* .top-mid */
+.top-mid {
+    width: 100%;
+    height: 180px;
+}
+
+.logo-pic {
+    width: 100%;
+    height: 180px;
+}
+
+/* .top-btm */
+.top-btm {
+    width: 100%;
+    height: 40px;
+    background-color: #ffa;
+}
+
+.top-btm-menu .tbm-list{
+    text-align: center;
+}
+
+.tbm-list li {
+    display: inline-block;
+    padding: 9px 20px;
+    height: 40px;
+}
+
+
+
+
+/* #mid */
+#mid {
+    background-color: #fff;
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+#mid h3 {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffa;    
+}
+
+#buyend {
+    text-align: center;
+    width: 80%;
+    margin-top: 50px;
+} 
+
+#buyend table{
+    width: 100%; 
+    margin:20px auto; 
+    border-collapse: collapse;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc; 
+}
+
+#buyend table th {
+    border-bottom: 2px solid #ccc; 
+    margin: 15px; 
+    padding: 15px;
+    text-align: center;
+    background: #ffe;
+}
+ 
+#buyend table th, td, tr{ 
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    text-align: center;
+}
+
+#buyend table  td, tr{ padding: 20px; }
+
+#toList{
+    margin: 20px auto 50px;
+    padding: 10px 5px; 
+    background-color: #ffa; 
+    box-shadow: 0 2px 5px #aa1;  
+    border-radius: 5px;
+    border: none;
+}
+
+#page button {
+    width: 30px;
+    height: 30px;
+    margin: 40px 5px;
+    border: 1px solid #aa1;
+    border-radius: 50%;
+    background: #ffe;
+}
+
+#page .arrow {
+    width: 25px;
+    height: 25px;
+}
+
+#buyend tr:nth-child(1) {
+    width: 10%;
+}
+#buyend tr:nth-child(2) {
+    width: 10%;
+}
+#buyend tr:nth-child(3) {
+    width: 10%;
+}
+#buyend tr:nth-child(4) {
+    width: 5%;
+}
+
+
+
+
+/* #bottom */
+#bottom {
+    width: 80%;
+    height: 170px;
+    border-top: 1px solid #ccc;
+}
+
+#bottom div {
+    float: left;
+}
+
+#bottom div h3 {
+    margin: 10px 0 15px 10px;
+}
+
+#bottom div p {
+    font-size: 0.8rem;
+    line-height: 2;
+}
+
+.cst-center {
+    padding-right: 230px;
+}
+
+.bank-info {
+    padding-right: 230px;
+}
+
+.btm-icon {
+    padding-right: 0;
+}
+
+.btm-icon-list li{
+    float: left;
+    padding : 10px;
+    margin: 30px 0px;
+}
+
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 120px;
+    clear: both;
+    margin-top: 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-info {
+    text-align: center;
+    border-top: 2px solid #000;
+}
+
+.span-list {
+    margin: 20px;
+}
+
+.span-list span {
+    line-height: 2;
+    font-size: 0.8rem;
+}

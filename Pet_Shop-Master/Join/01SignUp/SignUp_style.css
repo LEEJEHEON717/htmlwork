@@ -1,0 +1,70 @@
+/* 공통 스타일 */
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+/* =====================================top========================================= */
+
+#top {
+  width: 100%;
+  height: 100px;
+}
+
+/* join_header_wra */
+
+.join_header_wrap {
+  width: 100%;
+  height: 90px;
+  border-bottom: 3px solid #e3e3e3;
+  position: relative;
+  background: #fff;
+}
+
+.logo-pic {
+  width: 10%;
+  height: 10%;
+  display: flex;
+  margin-left: 3%;
+}
+
+.page_on {
+  display: flex;
+  margin-right: 3%;
+}
+
+/* =====================================mid========================================= */
+
+#mid {
+  width: 100%;
+  height: 500px;
+}
+
+/* join_main_visual_inner */
+
+.join_main_visual {
+  width: 1800px;
+  height: 500px;
+  
+  position: fixed;
+}
+
+.main_text {
+  text-align: center;
+}
+
+.side_text {
+  text-align: center;
+}
+
+.join_Q {
+  background: rgba(0,0,0,0.3);
+  border: #fff;
+}
