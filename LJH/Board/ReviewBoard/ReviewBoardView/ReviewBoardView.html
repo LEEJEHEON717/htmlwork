@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ReviewBoardView.css">
+  <script src="https://kit.fontawesome.com/9ae9f544ec.js" crossorigin="anonymous"></script>
+  <title>ReviewBoardView</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="top">
+      <div class="top-top">
+        <div class="tt-box">
+          <div class="mini-shortcut"> <!-- 상단 좌측 링크 아이콘 -->
+            <ul class="ms-list">
+              <li><a href="https://www.youtube.com" target="_blank">youtube</a></li>
+              <li><a href="https://www.instagram.com/" targer="_blank">instagram</a></li>
+              <li><a href="https://www.twitter.com/" targer="_blank">twitter</a></li>
+            </ul>
+          </div>
+
+          <div class="top-top-menu"> <!-- 상단 미니메뉴 -->
+            <ul class="ttm-list">
+              <li><a href="#">JOIN</a></li>
+              <li><a href="#">LOG-IN</a></li>
+              <li><a href="#">MY-PAGE</a></li>
+              <li><a href="#">BASKET</a></li>
+              <li><a href="#">ORDER-INQUIRY</a></li>
+              <li><a href="#">BOARD</a></li>
+              <li><input type="text" id="search"> 🔍</li> <!-- 상단 검색창 -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="top-mid"> <!-- 메인 로고, 사진 -->
+        <a href=""><img class="logo-pic" src="img/로고_01_logo2.2.jpg" alt=""></a>
+      </div>
+
+      <div id="top-btm"> <!-- 사이트 내 각종 메뉴 모음 -->
+        <nav class="top-btm-menu">
+          <ul class="tbm-list">
+            <li class="tbm-list-li"><a href="#"><i class="fa-solid fa-bars"></i> 전체 메뉴</a>
+              <ul class="sub_all_menu">
+                <ul><a href="">강아지 먹거리</a>
+                  <li><a href="">사료</li></a>
+                  <li><a href="">간식</li></a>
+                  <li><a href="">영양제</li></a>
+                </ul>
+                <ul><a href="">강아지 용품</a>
+                  <li><a href="">강아지 집</li></a>
+                  <li><a href="">강아지 옷</li></a>
+                  <li><a href="">강아지 장난감</li></a>
+                  <li><a href="">강아지 밥그릇</li></a>
+                  <li><a href="">강아지 산책용품</li></a>
+                </ul>
+                <ul><a href="">고양이 먹거리</a>
+                  <li><a href="">사료</li></a>
+                  <li><a href="">간식</li></a>
+                  <li><a href="">영양제</li></a>
+                </ul>
+                <ul><a href="">고양이 용품</a>
+                  <li><a href="">고양이 집</li></a>
+                  <li><a href="">고양이 옷</li></a>
+                  <li><a href="">고양이 장난감</li></a>
+                  <li><a href="">고양이 밥그릇</li></a>
+                  <li><a href="">고양이 방콕용품</li></a>
+                </ul>
+                <ul><a href="">햄스터 먹거리</a>
+                  <li><a href="">사료</li></a>
+                  <li><a href="">간식</li></a>
+                  <li><a href="">영양제</li></a>
+                </ul>
+                <ul><a href="">햄스터 용품</a>
+                  <li><a href="">햄스터 집</li></a>
+                  <li><a href="">햄스터 장난감</li></a>
+                  <li><a href="">햄스터 밥그릇</li></a>
+                  <li><a href="">햄스터 챗바퀴</li></a>
+                  <li><a href="">햄스터 이갈이</li></a>
+                </ul>
+                <ul><a href="">이벤트 상품</a>
+                  <li><a href="">기간 할인 상품</li></a>
+                  <li><a href="">신상품 할인 이벤트</li></a>
+                  <li><a href="">시즌 한정 상품</li></a>
+                </ul>
+              </ul>
+            </li>
+            <li class="tbm-list-li"><a href="#">강아지 먹거리</a>
+              <ul class="sub_menu">
+                <li><a href="">사료</li></a>
+                <li><a href="">간식</li></a>
+                <li><a href="">영양제</li></a>
+              </ul>
+            </li>
+            <li class="tbm-list-li"><a href="#">강아지 용품</a>
+              <ul class="sub_menu">
+                <li><a href="">강아지 집</li></a>
+                <li><a href="">강아지 옷</li></a>
+                <li><a href="">강아지 장난감</li></a>
+                <li><a href="">강아지 밥그릇</li></a>
+                <li><a href="">강아지 산책용품</li></a>
+              </ul>
+            </li>
+            <li class="tbm-list-li"><a href="#">고양이 먹거리</a>
+              <ul class="sub_menu">
+                <li><a href="">사료</li></a>
+                <li><a href="">간식</li></a>
+                <li><a href="">영양제</li></a>
+              </ul>
+            </li>
+            <li class="tbm-list-li"><a href="#">고양이 용품</a>
+              <ul class="sub_menu">
+                <li><a href="">고양이 집</li></a>
+                <li><a href="">고양이 옷</li></a>
+                <li><a href="">고양이 장난감</li></a>
+                <li><a href="">고양이 밥그릇</li></a>
+                <li><a href="">고양이 방콕용품</li></a>
+              </ul>
+            </li>
+            <li class="tbm-list-li"><a href="#">햄스터 먹거리</a>
+              <ul class="sub_menu">
+                <li><a href="">사료</li></a>
+                <li><a href="">간식</li></a>
+                <li><a href="">영양제</li></a>
+              </ul>
+            </li>
+            <li class="tbm-list-li"><a href="#">햄스터 용품</a>
+              <ul class="sub_menu">
+                <li><a href="">햄스터 집</li></a>
+                <li><a href="">햄스터 장난감</li></a>
+                <li><a href="">햄스터 밥그릇</li></a>
+                <li><a href="">햄스터 챗바퀴</li></a>
+                <li><a href="">햄스터 이갈이</li></a>
+              </ul>
+            </li>
+            <li class="tbm-list-li"><a href="#">이벤트 상품</a>
+              <ul class="sub_menu">
+                <li><a href="">기간 할인 상품</li></a>
+                <li><a href="">신상품 할인 이벤트</li></a>
+                <li><a href="">시즌 한정 상품</li></a>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div id="mid">
+      <div class="board_zone_sec">
+        <div class="board_zone_tit">
+          <h2>상품후기</h2>
+        </div>
+        <div class="board_zone_cont">
+          <div class="board_zone_view">
+
+            <div class="board_view_tit">
+              <h3>
+                저희 햄스터가 맛있게 먹어요
+              </h3>
+            </div>
+            <div class="board_view_info">
+              <span class="view_info_idip">
+                <b>회원 구매자</b>
+                <em>(IP: )</em> </span>
+              <span class="view_info_day">
+                <em>2023.11.08 08:56:05</em>
+              </span>
+              <span class="view_info_hits">
+                <b>조회수</b> 14
+              </span>
+            </div>
+
+            <div class="board_view_content">
+
+              <div class="view_goods_select">
+                <div class="view_goods_select_item">
+                  <span class="view_select_item_img">
+                    <a href="#" target="_blank">
+                      <img src="img/[비타크래프트]메뉴 바이탈 햄스터사료 400g.png">
+                    </a>
+                  </span>
+                  <span class="view_select_item_info">
+                    <em>[비타크래프트]메뉴 바이탈 햄스터사료 400g</em>
+                    <span class="text_type_cont"></span>
+                    <b>판매금액 2,400원</b>
+                  </span>
+                </div>
+              </div>
+
+              <div class="seem_cont">
+                <div style="margin:10px 0 10px 0">
+                  <br>
+                  <p class="word">제가 모르고 먹어봤는데도 맛있어요, 혹시 내가(?)<br>
+                    <br>
+                    <img src="img/[비타크래프트]메뉴 바이탈 햄스터사료 400g.png" class="photo"><br>
+                    <br><br>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="board_view_comment">
+              <div class="view_comment js_comment_area" data-bdid="goodsreview" data-sno="2871">
+                <div class="view_comment_top">
+                  <span class="comment_num">총 댓글 <b>0</b></span>
+                  <span class="rating_star_box">
+                    <em>별점</em>
+                    <span class="rating_star">
+                      <span style="width:100%;">&nbsp;</span>
+                    </span>
+                  </span>
+                </div>
+            
+                <div class="board_comment_box_js_form_write">
+                  댓글 권한이 없습니다.
+                </div>
+            
+                <div class="button-container">
+                  <button class="edit-button">수정</button>
+                  <button class="delete-button">삭제</button>
+                  <button class="confirm-button">확인</button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="btn_right_box">
+            <button type="button" class="btn_board_list" onclick="gd_btn_list('goodsreview')"><b>목록</b></button>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="bottom">
+        <div class="btm-box">
+          <div class="cst-center">
+            <p class="info-title">CUSTOMER CENTER</p><br>
+            <p class="info-content">
+              TEL 010-0000-0000 <br>
+              Kakao team_2 <br>
+              AM 10 ~ PM 6 <br>
+              Closed ~ Weekend, Holiday
+            </p>
+          </div>
+          <div class="bank-info">
+            <p class="info-title">BANK INFO</p><br>
+            <p class="info-content">
+              <span>농협 123-1234-1234-12</span> / <span>국민 123456-12-123456</span><br>
+              예금주 : (주)team_2
+            </p>
+          </div>
+          <div class="btm-icon">
+            <ul class="btm-icon-list">
+              <li><a href=""><img class="icon" src="#" alt=""></a></li>
+              <li><a href=""><img class="icon" src="#" alt=""></a></li>
+              <li><a href=""><img class="icon" src="#" alt=""></a></li>
+              <li><a href=""><img class="icon" src="#" alt=""></a></li>
+              <li><a href=""><img class="icon" src="#" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <footer id="ftr-box">
+          <div class="footer-info">
+            <div class="ftr-tags">
+              <a href="">HOME</a> | <a href="">COMPANY</a> | <a href="">AGREEMENT</a> | <a href="">PRIVACY POLICY</a> |
+              <a href="">GUIDE</a>
+            </div>
+            <p class="span-list">
+              <span>team_2 : KHacademy</span>
+              <span>address : korea seoul</span>
+              <span>tel : 1234-1234</span>
+              <span>e-mail : team_2@naver.com</span> <br>
+              <span>leader : choi hae won</span>
+              <span>member : seok min / dong hyeon / ji seong / je heon / seung beom </span> <br>
+              <span>copyright ⓒ team_2. All rights reserved. Design by team_2.</span>
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+</body>
+
+</html>

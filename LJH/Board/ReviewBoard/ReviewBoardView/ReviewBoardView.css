@@ -1,0 +1,428 @@
+  /* 공통 스타일 */
+  * {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    cursor: pointer;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  /* ==============================================heaader================================== */
+  /* top */
+  #top {
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* .top-top */
+  .top-top {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 2px solid #ededed;
+  }
+  
+  .tt-box {
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+  }
+  
+  .mini-shortcut {
+    margin-left: 50px;
+  }
+  
+  .ms-list li {
+    padding: 5px;
+    float: left;
+    font-size: 0.8rem;
+  }
+  
+  .ms-list li a {
+    color: #878787;
+  }
+  
+  .top-top-menu {
+    margin-right: 50px;
+  }
+  
+  .ttm-list li {
+    float: left;
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .ttm-list li a {
+    color: #878787;
+  }
+  
+  /* .top-mid */
+  .top-mid {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .top-mid a {
+    width: 1100px;
+    height: 160px;
+  }
+  
+  .top-mid a img {
+    width: 250px;
+    height: 160px;
+  }
+  
+  /* .top-btm */
+  
+  
+  #top-btm {
+    width: 100%;
+    height: 50px;
+    background-color: #edfed6;
+  }
+  
+  
+  .top-btm-menu .tbm-list {
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .tbm-list-li,
+  .view-all-menu {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .top-btm-menu .tbm-list li {
+    position: relative;
+  }
+  
+  .top-btm-menu li:hover ul,li {
+    display: block;
+  }
+  
+  .sub_all_menu {
+    width: 1100px;
+    height: 200px;
+    padding: 5px;
+    position: absolute;
+    background: #edfed6;
+    top: 50px;
+    left: -20px;
+    display: none;
+    z-index: 2;
+  }
+  
+  .sub_all_menu ul {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 3;
+  }
+  
+  .sub_all_menu ul li {
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .top-btm-menu li:hover .sub_all_menu {
+    display: flex;
+  }
+  
+  .sub_menu {
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    background: #edfed6;
+    top: 50px;
+    left: -10px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    display: none;
+    z-index: 2;
+  }
+  
+  .sub_menu li {
+    display: block;
+    text-align: left;
+  }
+
+
+  
+  /* ==============================================mid================================== */
+
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .board_zone_sec {
+    width: 1100px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .board_zone_tit h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .board_view_tit h3 {
+    background: #f7f7f7;
+    height: 50px;
+    text-align: left;
+    line-height: 100vh;
+    padding: 15px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    color: #444;
+  }
+  
+  .board_view_info {
+    font-size: 0.9rem;
+    padding: 15px;
+    color: #777;
+    border-bottom: 1px solid #999999;
+  }
+  
+  .board_view_content {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .view_comment_top {
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  .btn_right_box {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .btn_board_list {
+    padding: 10px 20px;
+    background-color: #951;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn_board_list:hover {
+    background-color: #be2600;
+  }
+  
+  .view_select_item_img img {
+      max-width: 100%;
+      width: 120px;
+      height: 120px;
+      height: auto;
+      border: 1px solid #ddd;
+      padding: 20px;
+  }
+  
+  .photo {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  
+  .board_comment_box_js_form_write {
+    background-color: #f8f8f8; 
+    padding: 10px;
+    margin-top: 10px;
+    color: #cccccc; 
+    border: 1px solid #7e7e7e;
+  }
+  
+  .view_goods_select {
+    display: flex;
+    padding: 0 15px 15px 15px;
+    border-bottom: 1px solid #999999;
+    align-content: flex-start;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .text_type_cont {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .view_goods_select_item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .view_select_item_img {
+    margin-right: 10px;
+  }
+  
+  .view_select_item_img img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+
+  .view_select_item_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .view_select_item_info em {
+    margin-bottom: 5px;
+  }
+  
+  .view_select_item_info b {
+    order: 1;
+    margin-top: 5px;
+  }
+
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .edit-button, .delete-button, .confirm-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #799c4b;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .edit-button:hover, .delete-button:hover, .confirm-button:hover {
+    background-color: #799c4b;
+  }
+  
+
+
+  
+ /* ==============================================bottom================================== */
+
+  /* #bottom */
+#bottom {
+  width: 100%;
+  height: 300px;
+  border-top: 2px solid #BEDAA4;
+  background: #ededed;
+}
+
+/* .btm-box */
+.btm-box {
+  width: 1100px;
+  height: 150px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-title {
+  font-weight: bold;
+}
+
+.info-content {
+  font-size: 0.8rem;
+}
+
+.cst-center {
+  width: 330px;
+  margin-left: 0;
+}
+
+.bank-info {
+  width: 330px;
+}
+
+.btm-icon {
+  width: 350px;
+  margin: 0;
+}
+
+.btm-icon-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btm-icon-list img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.btm-icon-list li {
+  padding: 10px;
+}
+
+/* #ftr-box */
+#ftr-box {
+  width: 100%;
+  height: 150px;
+  background: #221A11;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.footer-info {
+  width: 1100px;
+  height: 150px;
+  text-align: center;
+  line-height: 2;
+}
+
+.ftr-tags {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.ftr-tags a {
+  color: #fff;
+}
+  
